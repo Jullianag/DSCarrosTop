@@ -1,0 +1,13 @@
+.ds-text p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 25px;
+    color: var(--ds-color-font-secondary);
+}
+
+@media (min-width: 1200px) {
+    .ds-text p {
+        font-size: 32px;
+    }
+}

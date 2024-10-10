@@ -1,0 +1,31 @@
+.ds-footer-container {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    color: var(--ds-color-font-primary);
+    background-color: var(--ds-color-bg-primary)
+}
+
+.ds-footer-container address {
+    margin-top: 10px;
+}
+
+@media (min-width: 1200px) {
+    .ds-footer-container{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ds-footer-container address {
+        margin: 0 170px;
+    }
+
+    .ds-footer-container a {
+        margin: 0 170px;
+    }
+
+}

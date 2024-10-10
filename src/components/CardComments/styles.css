@@ -1,0 +1,22 @@
+.ds-card-comments {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.ds-card-comments p {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 20px;
+    border-radius: 12px;
+    margin-top: 25px;
+    font-size: 16px;
+    color: var(--ds-color-bg-primary);
+    background-color: var(--ds-color-bg-tertiary);
+    border: 1px solid var(--ds-color-border-primary);
+}
+
+@media (min-width: 1200px) {
+    .ds-card-comments {
+        margin: 25px 120px;
+    }
+}

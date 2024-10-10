@@ -1,0 +1,32 @@
+.ds-card-car {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 25px 20px;
+    border: 1px solid var(--ds-color-border-primary);
+}
+
+.ds-card-car img {
+    width: 260px;
+    margin-bottom: 10px;
+}
+
+.ds-card-car p {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--ds-color-font-secondary);
+}
+
+@media (min-width: 1200px) {
+    .ds-card-car {
+        margin: 25px 227px;
+    }
+    .ds-card-car img {
+        width: 391px;
+    }
+    .ds-card-car p {
+        font-size: 20px;
+    }
+}
